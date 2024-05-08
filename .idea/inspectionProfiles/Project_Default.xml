@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.iloc" />
+          <option value="tensorflow_datasets" />
+          <option value="tensorflow.keras" />
+          <option value="p1.src.tree_node.TreeNode.__getitem__" />
+          <option value="cov.num_prev_to_considerv" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
